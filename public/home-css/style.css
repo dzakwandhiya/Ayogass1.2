@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*.logo{
+    width: 100px;
+    cursor: pointer;
+    padding-left: 50px;
+}*/
+.logo-containt {
+  width: 130px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+
+body {
+  background-image: url('../asset-img/background-3.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+}
+
+/*.navbar{
+    width: 100%;
+    height: 0.5%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: seagreen;
+}
+.navbar ul{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+}
+.navbar ul li{
+    font-size: 13px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 2px;
+    position: relative;
+}
+.navbar ul a li{
+    
+    border-radius: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 80px;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.navbar ul a li:hover{
+    background-color: aliceblue;
+    color: seagreen ;
+    font-weight: bold;
+    transition: 0.3s;
+}*/
+/*.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: aliceblue;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}*/
+.content {
+
+  padding-top: 130px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  color: aliceblue;
+}
+
+.content table h1 {
+  font-size: 40px;
+
+
+}
+
+.content table p {
+
+
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.content table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 70%;
+
+}
+
+.content table .gambarRow {
+  width: 40%;
+}
+.content table .produk {
+  width: 60%;
+}
+.content table .gambarRow img{
+  width: 100%;
+}
+.content .gambarResponsive{
+  width: 0%;
+}
+
+button {
+  width: 150px;
+  color: aliceblue;
+  font-size: 15px;
+  margin-top: 30px;
+  padding: 10px 0;
+  text-align: center;
+  /* margin: 20px 10px; */
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid seagreen;
+  background-color: seagreen;
+  /* background: transparent; */
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgb(29, 204, 105);
+  color: aliceblue;
+  transition: 0.3s;
+
+}
+
+nav {
+  
+  position: fixed;
+  padding-top: 10px;
+  height: 60px;
+  width: 100%;
+
+
+}
+
+nav .lg {
+  width: 150px;
+  cursor: pointer;
+  padding-left: 120px;
+  padding-top: 14px;
+
+}
+
+/*label.logo{
+    color: white;
+    font-size: 15px;
+    
+    padding: 0 100px;
+    font-weight: bold;
+  }*/
+nav ul {
+  float: right;
+  margin-right: 100px;
+  padding-top: 17px;
+  padding-bottom: 0px;
+
+}
+
+nav li {
+  margin-right: 5px;
+
+}
+
+nav ul li {
+  display: inline-block;
+
+  /*margin: 0 5px;*/
+}
+
+nav ul li a {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 12px;
+  padding-left: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: aliceblue;
+  color: seagreen;
+
+
+  transition: 0.3s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 62px;
+  margin-right: 40px;
+
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 952px) {
+  .content table h1 {
+    font-size: 30px;
+  }
+  button{
+    margin-left: 30%;
+    margin-top: 20px;
+    
+  }
+  .content table .gambarRow {
+    width: 1%;
+  }
+  .content table p {
+    font-weight: 100;
+    line-height: 25px;
+  }
+  nav .lg {
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 16px;
+  }
+  .content .gambarResponsive{
+    width: 70%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .content table .gambarRow img{
+    width: 0%;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .content p {
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .content h1 {
+    font-size: 30px;
+  }
+
+  .lg-containt {
+    width: 80px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  .content .gambarResponsive{
+    width: 70%;
+    padding-left: 10%;
+    margin-left: 10%;
+    
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(28, 41, 33);
+    top: 70px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav {
+    position: fixed;
+    background-color: seagreen;
+  }
+  
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+
+}

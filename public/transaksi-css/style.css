@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+.logo-containt {
+    width: 130px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+
+
+}
+
+body {
+    background-image: url('../asset-img/background-3.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.navbar{
+    overflow: hidden;
+    width: 100%;
+    height: 0.5%;
+    margin: auto;
+    padding: 30px 0;
+
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: seagreen;
+
+}
+.navbar ul{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+}
+.navbar ul li{
+    font-size: 13px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 2px;
+    position: relative;
+}
+.navbar ul a li{
+
+    border-radius: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 80px;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.navbar ul a li:hover{
+    background-color: aliceblue;
+    color: seagreen ;
+    font-weight: bold;
+    transition: 0.3s;
+}*/
+hr {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 97%;
+    height: 7px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(43, 43, 43);
+
+}
+
+.content {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    color: rgb(37, 37, 37);
+    margin-bottom: 15px;
+
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content p {
+    width: 75%;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button {
+    width: auto;
+    color: aliceblue;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: seagreen;
+    border: 2px solid seagreen;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(40, 212, 115);
+    color: aliceblue;
+    transition: 0.3s;
+
+}
+
+table {
+    width: 75%;
+}
+
+.left {
+    width: 20%;
+    font-weight: bold;
+}
+
+table,
+th,
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+
+}
+
+textarea {
+    resize: none;
+    width: 99%;
+}
+
+th,
+td {
+    padding: 15px;
+    width: 80px;
+}
+
+input {
+
+
+    padding-left: 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+td {
+    vertical-align: top;
+    text-align: left;
+}
+
+.radio-row {
+    width: 5%;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.bank-row p {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.logo-row {
+    vertical-align: middle;
+    text-align: left;
+    width: 1%;
+
+}
+
+.radio span {
+    width: 40px;
+}
+
+.logo-bank {
+    width: 50px;
+    margin: auto;
+}
+
+.tagihan {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tagihan p {
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.table-2 {
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 5px;
+    padding-bottom: 20px;
+}
+
+nav {
+
+    /* position: fixed; */
+    padding-top: 10px;
+    height: 60px;
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+nav .lg {
+    width: 150px;
+    cursor: pointer;
+    padding-left: 120px;
+    padding-top: 14px;
+
+}
+
+/*label.logo{
+    color: white;
+    font-size: 15px;
+
+    padding: 0 100px;
+    font-weight: bold;
+  }*/
+nav ul {
+    float: right;
+    margin-right: 100px;
+    padding-top: 17px;
+    padding-bottom: 0px;
+
+}
+
+nav li {
+    margin-right: 5px;
+
+}
+
+nav ul li {
+    display: inline-block;
+
+    /*margin: 0 5px;*/
+}
+
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 12px;
+    padding-left: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: aliceblue;
+    color: seagreen;
+
+
+    transition: 0.3s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 62px;
+    margin-right: 40px;
+
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+    display: block;
+    width: 25px;
+    height: 25px;
+    outline: 1px seagreen;
+    z-index: 7;
+}
+
+.pemesanan {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 952px) {
+    table {
+        width: 95%;
+    }
+
+    .cards::-webkit-scrollbar {
+        display: none;
+
+    }
+
+    .select button {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cards {
+        margin-top: 40px;
+        height: 440px;
+    }
+
+    .content table h1 {
+        font-size: 30px;
+    }
+
+    button {
+        margin-left: 30%;
+        margin-top: 20px;
+
+    }
+
+    nav .lg {
+        width: 100px;
+        padding-left: 50px;
+        padding-top: 16px;
+    }
+
+    .content table .gambarRow {
+        width: 1%;
+    }
+
+    .content table p {
+        font-weight: 100;
+        line-height: 25px;
+    }
+
+
+    .content {
+        width: 90%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .content table .gambarRow img {
+        width: 0%;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .content p {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .logo-containt {
+        width: 80px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .content {
+        width: 90%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(28, 41, 33);
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav {
+        position: fixed;
+        background-color: seagreen;
+        margin-top: -100px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .tester {
+        margin-left: -100px;
+
+    }
+
+}

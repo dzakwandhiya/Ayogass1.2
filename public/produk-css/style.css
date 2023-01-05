@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*.logo{
+    width: 100px;
+    cursor: pointer;
+    padding-left: 50px;
+}*/
+.logo-containt {
+  width: 130px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+
+body {
+  background-image: url('../asset-img/background-3.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cards {
+  height: 400px;
+  overflow: visible auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+  grid-gap: 40px;
+  margin-top: -30px;
+}
+
+.cards::-webkit-scrollbar {
+  width: 15px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background-color: rgb(29, 204, 105);
+  border-radius: 25px;
+}
+
+.cards::-webkit-scrollbar-track {
+  background-color: aliceblue;
+  border-radius: 25px;
+}
+
+.card {
+    margin-top: -15px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+
+.container {
+  position: relative;
+  height: 200px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.cards img {
+  width: 100%;
+
+  display: unset;
+  border-radius: 20px 20px 0 0;
+}
+
+.container:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px 20px 0 0;
+  opacity: 0.7;
+}
+
+.card1>.container:after {
+  /* background-image: linear-gradient(135deg,
+      #0100ec,
+      #fb36f4); */
+}
+
+.card2>.container:after {
+  /* background-image: linear-gradient(135deg,
+      #2bdce3,
+      #42ffdb); */
+}
+
+.card3>.container:after {
+  background-image: linear-gradient(135deg,
+      #1f1e1e,
+      #161616);
+}
+
+.details {
+  padding: 20px 10px;
+}
+
+.details>h3 {
+  color:rgb(24, 24, 24);
+  font-weight: bolder;
+  font-size: 25px;
+  margin: -5px -15px 15px 0;
+}
+.details>h4 {
+  color:rgb(24, 24, 24);
+  font-weight:bold;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.details>p{
+  color:rgb(43, 44, 44);
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+}
+
+#style-15::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+#style-15::-webkit-scrollbar {
+  width: 5px;
+  background-color: #F5F5F5;
+}
+
+#style-15::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,
+      40% 0%,
+      75% 84%,
+      from(#4D9C41),
+      to(#19911D),
+      color-stop(.6, #54DE5D))
+}
+
+.content {
+
+
+  padding-top: 130px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 80%;
+  color: aliceblue;
+}
+
+.content table h1 {
+  font-size: 40px;
+
+
+}
+
+.content table p {
+
+
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.content table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 70%;
+
+}
+
+.content table .gambarRow {
+  width: 40%;
+}
+
+.content table .produk {
+  width: 60%;
+}
+
+.content table .gambarRow img {
+  width: 100%;
+}
+
+.content .gambarResponsive {
+  width: 0%;
+}
+
+button {
+  width: auto;
+  /* color: seagreen; */
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  height: 30px;
+  margin-right: 5px;
+
+
+  text-align: center;
+  vertical-align: middle;
+  /* margin: 20px 10px; */
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  /* background-color: aliceblue; */
+  /* background: transparent; */
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 1000;
+}
+.beli{
+margin-left: 10px;
+margin-right: auto;
+margin-top: 10px;
+text-align: center;
+width: 45%;
+}
+.active{
+  color: aliceblue;
+  background-color: rgb(29, 204, 105);
+}
+.buy{
+  color: aliceblue;
+  background-color: seagreen;
+}
+.nonactive{
+  color: seagreen;
+  background-color: aliceblue;
+}
+
+.select{
+  margin-top: -40px;
+  margin-bottom: 50px;
+  text-align: left;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+button:hover {
+  background-color: rgb(29, 204, 105);
+  color: aliceblue;
+  transition: 0.3s;
+
+}
+
+nav {
+  z-index: 1000;
+  display: block;
+  position: fixed;
+  padding-top: 10px;
+  height: 60px;
+  width: 100%;
+
+
+}
+
+nav .lg {
+  width: 150px;
+  cursor: pointer;
+  padding-left: 120px;
+  padding-top: 14px;
+
+}
+
+nav ul {
+  float: right;
+  margin-right: 100px;
+  padding-top: 17px;
+  padding-bottom: 0px;
+
+}
+
+nav li {
+  margin-right: 5px;
+
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 12px;
+  padding-left: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: aliceblue;
+  color: seagreen;
+
+
+  transition: 0.3s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 62px;
+  margin-right: 40px;
+
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 952px) {
+  .cards::-webkit-scrollbar {
+    display: none;
+
+  }
+  .select button{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cards {
+    margin-top: 40px;
+    height: 440px;
+  }
+
+  .content table h1 {
+    font-size: 30px;
+  }
+
+  button {
+    margin-left: 30%;
+    margin-top: 20px;
+
+  }
+
+  .content table .gambarRow {
+    width: 1%;
+  }
+
+  .content table p {
+    font-weight: 100;
+    line-height: 25px;
+  }
+
+  nav .logo {
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 16px;
+  }
+
+  .content .gambarResponsive {
+    width: 70%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .content table .gambarRow img {
+    width: 0%;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .content p {
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .content h1 {
+    font-size: 30px;
+  }
+
+  .logo-containt {
+    width: 80px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+
+  .content .gambarResponsive {
+    width: 70%;
+    padding-left: 10%;
+    margin-left: 10%;
+
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(28, 41, 33);
+    top: 70px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav {
+    position: fixed;
+    background-color: seagreen;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+
+}

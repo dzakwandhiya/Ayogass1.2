@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.mx-auto {
+    margin-top: 70px;
+    width: 95%;
+    font-size: 13px;
+
+
+}
+
+body {
+    background-image: url('../asset-img/background-3.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mx-auto h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+thead {
+    font-weight: bold;
+}
+
+
+.tr-judul {
+    vertical-align: middle;
+    color: aliceblue;
+    border-right: 2px solid seagreen;
+    border-left: 2px solid seagreen;
+    border-bottom: 2px solid seagreen;
+
+}
+
+.table .act {
+    width: 10%;
+}
+
+.table .ctt {
+    max-width: 150px;
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+body {
+    background-color: aliceblue;
+    /*background-image: url('background-3.png');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;*/
+}
+
+/*  */
+.navb {
+    background-color: seagreen;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 20000;
+    margin-top: -70px;
+
+
+}
+
+.navb .logo {
+    width: 250px;
+    cursor: pointer;
+    padding-left: 130px;
+    padding-top: 14px;
+
+}
+
+.navb ul {
+    float: right;
+
+    margin-right: 130px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+
+}
+
+.navb li {
+    margin-right: 4px;
+
+}
+
+.navb ul li {
+    display: inline-block;
+    text-decoration: none;
+
+    /*margin: 0 5px;*/
+}
+
+.navb ul li a {
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 12px;
+    padding-left: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navb li a:hover {
+    background-color: aliceblue;
+    color: seagreen;
+
+
+    transition: 0.3s;
+}
+
+.tr-judul {
+    vertical-align: middle;
+    color: aliceblue;
+    height: 50px;
+
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 62px;
+    margin-right: 40px;
+
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.card-header {
+    text-align: center;
+}
+
+@media (max-width: 952px) {
+    .mx-auto {
+        width: 95%;
+    }
+
+    .navb .logo {
+        width: 100px;
+        padding-left: 50px;
+        padding-top: 16px;
+    }
+
+    .navb ul li a {
+        font-size: 16px;
+    }
+
+    .navb .logo {
+        width: 150px;
+    }
+
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(28, 41, 33);
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .navb {
+        position: fixed;
+    }
+
+    .navb ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .navb ul li a {
+        font-size: 20px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}

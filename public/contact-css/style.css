@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*.logo{
+    width: 100px;
+    cursor: pointer;
+    padding-left: 50px;
+}*/
+.logo-containt {
+  width: 130px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+
+body {
+  background-image: url('../asset-img/background-3.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+
+  padding-top: 130px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  color: aliceblue;
+}
+
+.content .wa {
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: aliceblue;
+
+}
+
+.content .wa p {
+  width: 100%;
+  text-align: center;
+  color: rgb(17, 16, 16);
+
+}
+
+.content .wa img {
+  margin-left: 40%;
+  margin-right: auto;
+  width: 30%;
+
+}
+
+.content .in-wa {
+
+  border-radius: 15px;
+  border: 5px solid #26A74A;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: aliceblue;
+}
+
+.content .in-wa img {
+  margin-top: 20%;
+  margin-bottom: 10%;
+  width: 30%;
+}
+
+.content table {
+
+  margin-top: -10px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+
+.content table .whatsapp {
+  border-radius: 10px;
+  width: 50%;
+
+
+}
+
+.content table .email {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.content table .whatsapp .in-wa {
+  border-radius: 15px;
+  border: 5px solid #26A74A;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: aliceblue;
+}
+
+.content table .whatsapp .in-wa img {
+  margin-top: 20%;
+  margin-bottom: 10%;
+  width: 30%;
+}
+
+.content table .email .in-email img {
+  margin-top: 25%;
+  margin-bottom: 10%;
+  width: 30%;
+}
+
+.content table p {
+  font-size: 15px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(17, 16, 16);
+}
+
+.content table .email .in-email {
+  border-radius: 15px;
+  border: 5px solid #26A74A;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: aliceblue;
+}
+
+
+
+
+button {
+  width: 150px;
+  color: aliceblue;
+  font-size: 13px;
+  margin-top: 30px;
+  padding: 10px 0;
+  text-align: center;
+  /* margin: 20px 10px; */
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid seagreen;
+  background-color: seagreen;
+  /* background: transparent; */
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgb(29, 204, 105);
+  color: aliceblue;
+  transition: 0.3s;
+
+}
+
+nav {
+
+  position: fixed;
+  padding-top: 10px;
+  height: 60px;
+  width: 100%;
+
+
+}
+
+nav .logo {
+  width: 150px;
+  cursor: pointer;
+  padding-left: 120px;
+  padding-top: 14px;
+
+}
+
+nav ul {
+  float: right;
+  margin-right: 100px;
+  padding-top: 17px;
+  padding-bottom: 0px;
+
+}
+
+nav li {
+  margin-right: 5px;
+
+}
+
+nav ul li {
+  display: inline-block;
+
+  /*margin: 0 5px;*/
+}
+
+nav ul li a {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 12px;
+  padding-left: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: aliceblue;
+  color: seagreen;
+
+
+  transition: 0.3s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 62px;
+  margin-right: 40px;
+
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 952px) {
+  button {
+    width: 130px;
+    font-size: 11px;
+    margin-top: 30px;    
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid seagreen;
+    background-color: seagreen;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .content table .whatsapp .in-wa {
+    height: 350px;
+    width: 82%;
+  }
+  .content table .whatsapp .in-wa p{
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .content table .email .in-email {
+    height: 350px;
+    width: 85%;
+  }
+  .content table .email .in-email p{
+    width: 80%;
+    font-size: 12px;
+  }
+  .content table .email .in-email img {
+    margin-top: 25%;
+    margin-bottom: 15%;
+    width: 35%;
+  }
+  .content table .whatsapp .in-wa img {
+    margin-top: 25%;
+    margin-bottom: 10%;
+    width: 30%;
+  }
+  .content table {
+    width: 80%;
+  }
+ 
+
+  .content table h1 {
+    font-size: 30px;
+  }
+
+  nav .logo {
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 16px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+
+
+  .content h1 {
+    font-size: 30px;
+  }
+
+  .logo-containt {
+    width: 80px;
+  }
+}
+
+@media (max-width: 858px) {
+  .content table {
+    width: 100%;
+  }
+  button {
+    width: 130px;
+    font-size: 11px;
+    margin-top: 30px;    
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid seagreen;
+    background-color: seagreen;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .content table .whatsapp .in-wa {
+    height: 350px;
+    width: 82%;
+  }
+  .content table .whatsapp .in-wa p{
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .content table .email .in-email {
+    height: 350px;
+    width: 85%;
+  }
+  .content table .email .in-email p{
+    width: 80%;
+    font-size: 12px;
+  }
+  .content table .email .in-email img {
+    margin-top: 25%;
+    margin-bottom: 15%;
+    width: 65%;
+  }
+  .content table .whatsapp .in-wa img {
+    margin-top: 25%;
+    margin-bottom: 10%;
+    width: 60%;
+  }
+  .checkbtn {
+    display: block;
+  }
+
+  .content .gambarResponsive {
+    width: 70%;
+    padding-left: 10%;
+    margin-left: 10%;
+
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(28, 41, 33);
+    top: 70px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav {
+    position: fixed;
+    background-color: seagreen;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+
+}
